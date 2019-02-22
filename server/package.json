@@ -1,0 +1,19 @@
+{
+  "name": "react-template",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "NODE_PATH=. nodemon index.js",
+    "start-prod": "NODE_ENV='production' NODE_PATH=. node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "mysql2": "^1.6.1",
+    "nconf": "^0.10.0",
+    "nodemailer": "^4.6.8",
+    "sequelize": "^4.38.1",
+    "swagger-jsdoc": "^3.2.0",
+    "swagger-ui-express": "^4.0.1"
+  }
+}
